@@ -8,7 +8,7 @@ const Fotos = () => {
       <Container>
         <div className=' mt-5 bg-gray-50 border border-gray-100 p-12'>
           <h1 className='m-5 p-4 text-2xl font-bold'>
-            Recursos de Animaciones Web Predefinidas
+            Recursos para Descargar y Editar Imágenes{' '}
           </h1>
           <div className='grid grid-cols-1 lg:grid-cols-3 gap-12'>
             <Link href={'https://unsplash.com/es'}>
@@ -67,7 +67,6 @@ const Fotos = () => {
                 alt='Logo de tinypng'
               />
             </Link>
-
           </div>
         </div>
       </Container>

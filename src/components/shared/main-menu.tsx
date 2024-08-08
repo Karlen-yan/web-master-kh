@@ -45,7 +45,7 @@ const MainMenu = () => {
           Servidores web
         </Link>
         <Link
-          href='/editors'
+          href='/editores-codigo'
           className=' rounded-md bg-[#3972BF] text-white pt-1 pb-1 pr-3 pl-3 mt-3 hover:bg-[#9cb8df]  hover:text-[#3972BF]'
         >
           Editores
