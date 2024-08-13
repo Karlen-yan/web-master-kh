@@ -8,7 +8,7 @@ const EditoresCodigo = () => {
       <Container>
         <div className=' mt-5 bg-gray-50 border border-gray-100 p-12'>
           <h1 className='m-5 p-4 text-2xl font-bold'>
-          Herramientas para Trabajar con APIs en el Lado del Servidor
+          Editores de Código para Desarrolladores Web
           </h1>
           <div className='grid grid-cols-1 lg:grid-cols-3 gap-12'>
             <Link href={'https://www.apicur.io/studio/'}>
