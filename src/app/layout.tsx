@@ -20,7 +20,7 @@ export default function RootLayout ({
   return (
     <html lang='en'>
       <link rel='icon' href='/Web-MasterKH.ico' />
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[url('/images/cool-background.svg')] bg-no-repeat bg-cover bg-center min-h-screen`}>
         <Header />
         {children}
         <Footer />

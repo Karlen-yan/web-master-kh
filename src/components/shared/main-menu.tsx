@@ -73,7 +73,7 @@ const MainMenu = () => {
         </Link>
 
         <Link
-          href='/others'
+          href='/otros'
           className=' rounded-md bg-[#3972BF] text-white pt-1 pb-1 pr-3 pl-3 mt-3 hover:bg-[#9cb8df]  hover:text-[#3972BF]'
         >
           Otros
@@ -81,21 +81,15 @@ const MainMenu = () => {
       </li>
 
       <h1 className='pt-4 text-2xl font-bold'>
-        Canales recomendadas para aprender Desarrollar páginas web{' '}
+        Canales recomendadas para aprender Desarrollar páginas web
       </h1>
       <li className='flex flex-col lg:flex-row items-center gap-4'>
         <Link
-          href='/'
+          href='/canales-recomendados'
           className=' rounded-md bg-[#3972BF] text-white pt-1 pb-1 pr-3 pl-3 mt-3 hover:bg-[#9cb8df]  hover:text-[#3972BF]'
         >
-          Maqetación página web
-        </Link>
-        <Link
-          href='/colors'
-          className=' rounded-md bg-[#3972BF] text-white pt-1 pb-1 pr-3 pl-3 mt-3 hover:bg-[#9cb8df]  hover:text-[#3972BF]'
-        >
-          Colores
-        </Link>
+          Canales de Desarrollo app web         
+          </Link>
       </li>
     </ul>
   )
