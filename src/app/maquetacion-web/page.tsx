@@ -46,6 +46,14 @@ const WebsiteLayout = () => {
 
               />
             </Link>
+            <Link href={'https://cssgradient.io/'}>
+              <Card
+                img='/images/maquetacion-web/cssgradient.png'
+                className='w-[500px] h-[300px]'
+                description='Herramienta en línea que permite crear y personalizar gradientes CSS de manera sencilla, ofreciendo opciones visuales para diseñadores y desarrolladores que buscan generar fondos y efectos de color atractivos para sus proyectos web.'
+                alt='Logo de css gradient'
+              />
+            </Link>
 
            
           </div>

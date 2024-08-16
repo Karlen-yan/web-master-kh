@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ img, description,alt, className }) => {
   return (
-    <div>
+    <div className='animate-fade animate-once '>
       <Image
         src={img}
         alt={alt}

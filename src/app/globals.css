@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.menu-booten-link {
+
+
+  background: rgb(8, 79, 175);
+  background: linear-gradient(267deg, rgba(8, 79, 175, 1) 0%, rgba(106, 149, 207, 1) 100%);
+  transition: background 0.5s ease;
+
+}
+
+.menu-booten-link:hover {
+  /*background: #9cb8df;
+  */background: rgb(230, 237, 247);
+  background: linear-gradient(4deg, rgba(230, 237, 247, 1) 0%, rgba(8, 79, 175, 1) 100%);
+  /* color: #084faf; */
+  animation: rotate-gradient 1s ease-in-out infinite ;
+  -webkit-animation: rotate-gradient 1s ease-in-out infinite ;
+}
+
+
+
+/* animations */
+
+@keyframes rotate-gradient {
+  0% {
+    background: linear-gradient(267deg, rgba(8, 79, 175, 1) 0%, rgba(106, 149, 207, 1) 100%);
+  }
+  25% {
+    background: linear-gradient(195deg, rgba(8, 79, 175, 1) 0%, rgb(141, 171, 210) 100%);
+  }
+  50% {
+    background: linear-gradient(158deg, rgba(8, 79, 175, 1) 0%, rgba(106, 149, 207, 1) 100%);
+  }
+  
+  75% {
+    background: linear-gradient(89deg, rgba(8, 79, 175, 1) 0%, rgb(23, 101, 202) 100%);
+  }
+
+  
+  100% {
+    background: linear-gradient(4deg, rgba(8, 79, 175, 1) 0%, rgba(106, 149, 207, 1) 100%);
+  }
+}
